@@ -48,7 +48,7 @@ public class ServiceCommunicator {
 /*
  main method used just to test this class in isolation.  You will learn more about testing in another course
  */
-      public static void main(String[] argv) {
+    /*  public static void main(String[] argv) {
         System.out.println(new ServiceCommunicator("http://api.zippopotam.us/us/" + "10011").get());
         System.err.println();
           System.out.println(new ServiceCommunicator("https://itunes.apple.com/search?term=" + "bbking" + "\\&limit=1").get());
@@ -56,5 +56,5 @@ public class ServiceCommunicator {
           System.out.println(new ServiceCommunicator("https://itunes.apple.com/search?term=" + "Ribbon-in-the-Sky" + "&limit=1").get());
         System.err.println("==================================");
         System.out.println(new ServiceCommunicator("http://www.google.com").get());
-      }
+      }*/
 }
